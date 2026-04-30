@@ -1,3 +1,9 @@
+---
+title: О проекте
+layout: single
+ShowToc: false
+---
+
 # О проекте
 
 Портфолио AI Technical Writer / Product UX Writer.
