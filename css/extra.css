@@ -22,6 +22,7 @@ input,
 select,
 textarea {
   font-family: 'Inter', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  font-weight: 300;
 }
 
 .list,
@@ -73,6 +74,7 @@ body {
 .logo a,
 .post-content a {
   color: var(--primary);
+  font-weight: 400;
 }
 
 #menu a:hover,
@@ -95,6 +97,7 @@ body {
 .post-content td,
 .post-content th {
   color: var(--content);
+  font-weight: 300;
 }
 
 .post-content code {
