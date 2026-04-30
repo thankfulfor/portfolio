@@ -8,7 +8,7 @@
 
 ![Вариант экрана 2](/portfolio/images/ux/frame-34.png)
 
-![Текущее модальное окно](/portfolio/images/ux/group-4.png)
+![Текущее модальное окно с пометками](/portfolio/images/ux/group-4-annotated.png)
 
 Сервис хочет предложить пользователю указать другую почту для получения сообщений.
 
