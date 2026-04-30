@@ -18,14 +18,6 @@ ShowBreadCrumbs = true
 ShowToc = true
 TocOpen = true
 
-[params.homeInfoParams]
-Title = "Портфолио: Technical Writer / DocOps / UX Writer"
-Content = "Продуктовая документация, UX-тексты, Docs as Code, AI-assisted workflow и документационные процессы."
-
-[[params.socialIcons]]
-name = "github"
-url = "https://github.com/thankfulfor/portfolio"
-
 [menu]
   [[menu.main]]
   identifier = "home"
