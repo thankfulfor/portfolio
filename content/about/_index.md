@@ -13,7 +13,9 @@ ShowToc: false
 ## Для собеседования
 
 - [Краткий pitch (90 секунд)](/portfolio/about/interview-pitch/)
-- [Резюме и контакты](/portfolio/about/resume/)
+- [Резюме UX-редактора / Product Writer](/portfolio/about/resume-ux-editor/)
+- [Резюме Technical Writer / DocOps](/portfolio/about/resume-technical-writer/)
+- [Все контакты и выбор резюме](/portfolio/about/resume/)
 
 ## Дополнительно
 
