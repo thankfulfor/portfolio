@@ -1,16 +1,88 @@
 {{- if (.Param "ShowBreadCrumbs") -}}
+{{- $homeURL := site.Home.RelPermalink -}}
+{{- $path := .RelPermalink -}}
+{{- $slug := strings.TrimPrefix $homeURL $path -}}
+{{- $slug = strings.TrimSuffix "/" $slug -}}
+{{- $title := .Title -}}
+{{- if not $title -}}
+  {{- with findRE `(?m)^#\s+(.+)$` .RawContent 1 -}}
+    {{- $title = replaceRE `^#\s+` "" (index . 0) -}}
+  {{- end -}}
+{{- end -}}
+{{- $title = $title | plainify -}}
+
+{{- $techURL := printf "%stech/" $homeURL -}}
+{{- $uxURL := printf "%sux/" $homeURL -}}
+{{- $section := .Param "breadcrumbSection" | default "" -}}
+
+{{- $uxSlugs := slice
+  "ux"
+  "email-change-ux-case"
+  "release-banner-case"
+  "ux-writing-case"
+  "ux-onboarding-case"
+  "ux-form-audit-case"
+  "ux-portfolio-checklist"
+-}}
+{{- $techSlugs := slice
+  "tech"
+  "architecture"
+  "api-overview"
+  "api-explained-case"
+  "api-explained-plain-english"
+  "getting-started"
+  "interactive-api"
+  "api"
+  "scenario-order"
+  "scenario-payment-incident"
+  "scenario-onboarding-store"
+  "scenario-return-cancel"
+  "release-notes"
+  "knowledge-base"
+  "docs-as-code-pipeline"
+  "documentation-workflow"
+  "process"
+  "user-guides"
+  "screenshot-guide-case"
+  "ai-in-workflow"
+  "ai-workflow-case"
+  "business/bpmn-order-flow"
+  "business/sales-dashboard"
+  "cases/api-payment-case"
+  "developers/architecture-c4"
+  "developers/sequence-create-order"
+  "developers/uml-class-model"
+  "game/find-doc-bug"
+  "users/onboarding"
+  "users/troubleshooting"
+-}}
+
+{{- if and (not $section) (in $uxSlugs $slug) -}}
+  {{- $section = "ux" -}}
+{{- else if and (not $section) (in $techSlugs $slug) -}}
+  {{- $section = "tech" -}}
+{{- end -}}
+
+{{- $sectionTitle := "" -}}
+{{- $sectionURL := "" -}}
+{{- if eq $section "tech" -}}
+  {{- $sectionTitle = "Tech Writing" -}}
+  {{- $sectionURL = $techURL -}}
+{{- else if eq $section "ux" -}}
+  {{- $sectionTitle = "UX Writing" -}}
+  {{- $sectionURL = $uxURL -}}
+{{- end -}}
+
 <nav class="breadcrumbs" role="navigation" aria-label="Breadcrumb">
-  <a href="{{ site.Home.RelPermalink }}">Главная</a>
+  <a href="{{ $homeURL }}">Главная</a>
   {{- if not .IsHome -}}
-    {{- $path := .RelPermalink -}}
-    {{- $isUx := or (in $path "/ux/") (in $path "-ux-") (in $path "ux-writing") (in $path "release-banner") -}}
-    {{- $isTech := or (in $path "/tech/") (and (not $isUx) (not (eq $path "/portfolio/"))) -}}
-    {{- if and $isTech (not (eq $path "/portfolio/tech/")) -}}
+    {{- if and $sectionTitle (ne $path $sectionURL) -}}
       <span class="breadcrumb-separator">/</span>
-      <a href="/portfolio/tech/">Tech Writing</a>
-    {{- else if and $isUx (not (eq $path "/portfolio/ux/")) -}}
+      <a href="{{ $sectionURL }}">{{ $sectionTitle }}</a>
+    {{- end -}}
+    {{- if $title -}}
       <span class="breadcrumb-separator">/</span>
-      <a href="/portfolio/ux/">UX Writing</a>
+      <span class="breadcrumb-current">{{ $title }}</span>
     {{- end -}}
   {{- end -}}
 </nav>
