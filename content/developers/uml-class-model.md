@@ -1,6 +1,6 @@
 # UML Class Model
 
-![Class Model](../diagrams-rendered/class-model.svg)
+![Class Model](/portfolio/diagrams-rendered/class-model.svg)
 
 ## Основные сущности
 

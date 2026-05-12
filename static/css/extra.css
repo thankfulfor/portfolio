@@ -524,3 +524,16 @@ body {
 #swagger-ui .swagger-ui .model-box .property {
   border-color: #31445d !important;
 }
+
+.case-image-70 {
+  display: block;
+  width: 70%;
+  height: auto;
+  margin: 1rem auto 1.25rem;
+}
+
+@media (max-width: 560px) {
+  .case-image-70 {
+    width: 100%;
+  }
+}

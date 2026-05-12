@@ -43,9 +43,37 @@ function localizePagination() {
   });
 }
 
+function setPrimaryMenuActive() {
+  const path = window.location.pathname;
+  const menuLinks = document.querySelectorAll('#menu a');
+  if (!menuLinks.length) return;
+
+  const isUx =
+    path.includes('/ux/') ||
+    path.includes('-ux-') ||
+    path.includes('ux-writing') ||
+    path.includes('release-banner');
+  const isHome = path === '/portfolio/' || path === '/portfolio';
+  const target = isHome ? 'Главная' : isUx ? 'UX Writing' : 'Tech Writing';
+
+  menuLinks.forEach((a) => {
+    const span = a.querySelector('span');
+    if (!span) return;
+    span.classList.remove('active');
+    if ((a.textContent || '').trim() === target) {
+      span.classList.add('active');
+    }
+  });
+}
+
 document.addEventListener('DOMContentLoaded', localizePagination);
+document.addEventListener('DOMContentLoaded', setPrimaryMenuActive);
 window.addEventListener('load', localizePagination);
+window.addEventListener('load', setPrimaryMenuActive);
 
 // Theme scripts can re-render nav/footer after load, so relocalize on changes.
-const observer = new MutationObserver(localizePagination);
+const observer = new MutationObserver(() => {
+  localizePagination();
+  setPrimaryMenuActive();
+});
 observer.observe(document.documentElement, { childList: true, subtree: true });

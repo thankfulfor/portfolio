@@ -15,7 +15,7 @@ ShowShareButtons = false
 ShowPostNavLinks = true
 ShowCodeCopyButtons = true
 ShowBreadCrumbs = true
-ShowToc = true
+ShowToc = false
 TocOpen = true
 
 [menu]

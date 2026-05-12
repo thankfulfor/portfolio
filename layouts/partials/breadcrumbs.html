@@ -2,8 +2,16 @@
 <nav class="breadcrumbs" role="navigation" aria-label="Breadcrumb">
   <a href="{{ site.Home.RelPermalink }}">Главная</a>
   {{- if not .IsHome -}}
-    <span class="breadcrumb-separator">/</span>
-    <span>{{ .Title }}</span>
+    {{- $path := .RelPermalink -}}
+    {{- $isUx := or (in $path "/ux/") (in $path "-ux-") (in $path "ux-writing") (in $path "release-banner") -}}
+    {{- $isTech := or (in $path "/tech/") (and (not $isUx) (not (eq $path "/portfolio/"))) -}}
+    {{- if and $isTech (not (eq $path "/portfolio/tech/")) -}}
+      <span class="breadcrumb-separator">/</span>
+      <a href="/portfolio/tech/">Tech Writing</a>
+    {{- else if and $isUx (not (eq $path "/portfolio/ux/")) -}}
+      <span class="breadcrumb-separator">/</span>
+      <a href="/portfolio/ux/">UX Writing</a>
+    {{- end -}}
   {{- end -}}
 </nav>
 {{- end -}}

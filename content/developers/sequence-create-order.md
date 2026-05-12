@@ -1,6 +1,6 @@
 # Sequence: Создание заказа
 
-![Sequence: Create Order](../diagrams-rendered/sequence-create-order.svg)
+![Sequence: Create Order](/portfolio/diagrams-rendered/sequence-create-order.svg)
 
 ## Поток
 

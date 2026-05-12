@@ -2,7 +2,7 @@
 
 Ниже BPMN-подобная диаграмма процесса от выбора питомца до подтверждения заказа.
 
-![BPMN Order Flow](../diagrams-rendered/bpmn-order-flow.svg)
+![BPMN Order Flow](/portfolio/diagrams-rendered/bpmn-order-flow.svg)
 
 !!! note "Цель"
     Показать сквозной бизнес-процесс и точки контроля.
