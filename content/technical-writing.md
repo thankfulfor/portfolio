@@ -14,7 +14,7 @@ layout: landing-min
 | [Сценарий: создание заказа](/portfolio/scenario-order/) | сквозной flow UI → API → backend |
 | [Инцидент: сбой оплаты](/portfolio/scenario-payment-incident/) | диагностика, шаги восстановления |
 | [Release Notes](/portfolio/release-notes/) | разные подходы к написанию release notes |
-| [Knowledge Base](/portfolio/knowledge-base/) | структура базы знаний и процесс актуализации |
+| [База знаний](/portfolio/knowledge-base/) | структура базы знаний и процесс актуализации |
 | [Docs as Code pipeline](/portfolio/docs-as-code-pipeline/) | процесс обновления и review документации |
 
 ## Контакты и CV
