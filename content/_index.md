@@ -13,7 +13,7 @@ ShowToc: false
     <p>Technical Writing / Documentation Engineering</p>
   </a>
   <a class="track-card" href="/portfolio/ux/">
-    <h3>UX Writing</h3>
+    <h3>UX-писатель</h3>
     <p>UX Writing / Product Writing</p>
   </a>
 </div>
