@@ -7,7 +7,7 @@ layout: landing-min
 
 ## Статьи
 
-| Кейс | Что внутри |
+| Статья | Что внутри |
 |---|---|
 | [Архитектура и диаграммы](/portfolio/architecture/) | C4/sequence, зависимости, контекст |
 | [Документация API](/portfolio/api-overview/) | endpoint'ы, примеры, ошибки |
