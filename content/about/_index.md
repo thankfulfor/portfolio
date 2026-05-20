@@ -6,7 +6,7 @@ ShowToc: false
 
 # О проекте
 
-Портфолио AI Technical Writer / Product UX Writer.
+Портфолио AI-технического писателя / Product UX Writer.
 
 Здесь собраны материалы, которые показывают подход к продуктовой документации, UX-текстам, работе со сценариями и осмысленному использованию AI в редакторских и аналитических задачах.
 
@@ -14,7 +14,7 @@ ShowToc: false
 
 - [Краткий pitch (90 секунд)](/portfolio/about/interview-pitch/)
 - [Резюме UX-редактора / Product Writer](/portfolio/about/resume-ux-editor/)
-- [Резюме Technical Writer / DocOps](/portfolio/about/resume-technical-writer/)
+- [Резюме технического писателя / DocOps](/portfolio/about/resume-technical-writer/)
 - [Все контакты и выбор резюме](/portfolio/about/resume/)
 
 ## Дополнительно

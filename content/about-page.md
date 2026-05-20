@@ -12,7 +12,7 @@ title: Обо мне и контакты
 
 | Направление | Что делаю |
 |---|---|
-| Technical Writer / DocOps | Навожу порядок в документации, описываю API, сценарии, edge cases, release notes, help center и документационный workflow |
+| Технический писатель / DocOps | Навожу порядок в документации, описываю API, сценарии, edge cases, release notes, help center и документационный workflow |
 | UX Writer / Product Writer | Пишу и улучшаю интерфейсные тексты: ошибки, уведомления, onboarding, empty states, email, push и SMS |
 | AI-assisted documentation | Использую AI для структурирования вводных, генерации вариантов, поиска нестыковок и проверки полноты сценариев |
 

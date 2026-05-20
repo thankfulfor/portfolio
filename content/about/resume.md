@@ -11,7 +11,7 @@ ShowToc: false
 ## Выбрать резюме
 
 - [Резюме UX-редактора / Product Writer](/portfolio/about/resume-ux-editor/)
-- [Резюме Technical Writer / DocOps](/portfolio/about/resume-technical-writer/)
+- [Резюме технического писателя / DocOps](/portfolio/about/resume-technical-writer/)
 
 ## Контакты
 
@@ -25,4 +25,4 @@ ShowToc: false
 
 Для вакансий UX-редактора, продуктового редактора, Product Writer, UX Writer и Content Designer лучше давать ссылку на редакторское резюме.
 
-Для вакансий Technical Writer, API Writer, DocOps, документационного инженера и автора технической документации лучше давать ссылку на техническое резюме.
+Для вакансий технического писателя, API Writer, DocOps, документационного инженера и автора технической документации лучше давать ссылку на техническое резюме.
