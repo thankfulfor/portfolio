@@ -19,15 +19,15 @@ ShowToc: false
   <tbody>
     <tr>
       <td>Markdown</td>
-      <td>docs-as-code, README, GitHub/GitLab, статические сайты</td>
-      <td>Для простой и быстрой документации</td>
+      <td>README, GitHub/GitLab, простые docs-as-code-проекты, статические сайты</td>
+      <td>Когда нужна простая документация в Git с быстрым review и сборкой в HTML</td>
       <td><pre><code>## Установка
 - Скачайте пакет
 `npm install`</code></pre></td>
     </tr>
     <tr>
       <td>reStructuredText</td>
-      <td>Python-документация, Sphinx, Read the Docs</td>
+      <td>Sphinx, Read the Docs, API reference, документация библиотек и внутренних платформ</td>
       <td>Для структурированной документации с cross-references и автогенерацией API</td>
       <td><pre><code>Заголовок
 =========
