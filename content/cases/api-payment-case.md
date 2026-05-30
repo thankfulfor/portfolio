@@ -31,4 +31,3 @@
 ## Связанные материалы
 
 - [Справочник API](/portfolio/api/)
-- [Сценарий: Инцидент — сбой оплаты](/portfolio/scenario-payment-incident/)

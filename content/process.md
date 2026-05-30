@@ -5,7 +5,6 @@
 ## Кейсы
 
 - [Documentation Workflow](/portfolio/documentation-workflow/)
-- [Docs as Code Pipeline](/portfolio/docs-as-code-pipeline/)
 
 ## Этапы
 

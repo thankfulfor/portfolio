@@ -60,5 +60,4 @@ pie showData
 
 ## Связанные разделы
 
-- [Сценарий: Оформление заказа](/portfolio/scenario-order/)
 - [Пользовательские инструкции](/portfolio/users/onboarding/)

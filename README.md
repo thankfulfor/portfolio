@@ -31,6 +31,5 @@ hugo --minify
 
 - `/about/interview-pitch/`
 - `/about/resume/`
-- `/scenario-order/`
 - `/interactive-api/`
 - `/game/find-doc-bug/`
