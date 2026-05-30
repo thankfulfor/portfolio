@@ -1,17 +1,39 @@
 ---
-title: О проекте
+title: Обо мне и контакты
 layout: single
 ShowToc: false
 ---
 
-# О проекте
+# Обо мне и контакты
 
-Портфолио технического писателя и UX-писателя.
+Работаю на стыке технической документации, UX-текстов и документационных процессов.
 
-Внутри — законченные материалы: API-кейсы, сценарии, release notes, UX-кейсы, диаграммы и документационные процессы.
+У меня frontend-бэкграунд и 10+ лет в продуктовой IT-разработке. Поэтому я быстро разбираюсь в логике продукта, API, пользовательских сценариях, интерфейсных состояниях и ограничениях разработки.
 
-## Для собеседования
+## Позиционирование
+
+| Направление | Что делаю |
+|---|---|
+| Технический писатель / DocOps | Описываю API, сценарии, edge cases, release notes, help center и workflow документации |
+| UX-писатель / Product Writer | Улучшаю ошибки, уведомления, onboarding, empty states, email, push и SMS |
+| AI-assisted documentation | Использую AI для структуры, вариантов, поиска нестыковок и проверки сценариев |
+
+## Что мне интересно
+
+- Небольшие и средние продуктовые команды.
+- Документация рядом с разработкой: Markdown, Git, OpenAPI, docs-as-code, базы знаний.
+- UX-тексты, которые помогают пользователю пройти сценарий без тупиков.
+- Документационные процессы: актуальность, структура, навигация, release notes, workflow.
+
+## Резюме
 
 - [Резюме UX-редактора / Product Writer](/portfolio/about/resume-ux-editor/)
 - [Резюме технического писателя / DocOps](/portfolio/about/resume-technical-writer/)
 - [Все контакты и выбор резюме](/portfolio/about/resume/)
+
+## Контакты
+
+- LinkedIn: [linkedin.com/in/narsiya](https://www.linkedin.com/in/narsiya/)
+- GitHub: [github.com/thankfulfor](https://github.com/thankfulfor)
+- Email: [thankfulfor@ya.ru](mailto:thankfulfor@ya.ru)
+- Telegram: [@fuckinuseless](https://t.me/fuckinuseless)
