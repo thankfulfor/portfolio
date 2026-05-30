@@ -56,6 +56,45 @@ ShowToc: false
   </div>
 </section>
 
+<section class="portfolio-map">
+  <h2>Карта сайта</h2>
+  <ul>
+    <li><a href="/portfolio/">Главная</a></li>
+    <li>Обо мне
+      <ul>
+        <li><a href="/portfolio/about/">Обо мне и контакты</a></li>
+        <li><a href="/portfolio/about/resume/">Резюме и контакты</a></li>
+        <li><a href="/portfolio/about/resume-ux-editor/">Резюме UX-редактора</a></li>
+        <li><a href="/portfolio/about/resume-technical-writer/">Резюме технического писателя</a></li>
+      </ul>
+    </li>
+    <li>Навигационные разделы
+      <ul>
+        <li><a href="/portfolio/tech/">Tech Writing</a></li>
+        <li><a href="/portfolio/ux/">UX Writing</a></li>
+      </ul>
+    </li>
+    <li>Кейсы и статьи
+      <ul>
+        <li><a href="/portfolio/email-change-ux-case/">Дополнительная почта</a></li>
+        <li><a href="/portfolio/release-banner-case/">Релизный баннер</a></li>
+        <li><a href="/portfolio/screenshot-guide-case/">Инструкция по скриншотам</a></li>
+        <li><a href="/portfolio/api-explained-case/">API простыми словами</a></li>
+        <li><a href="/portfolio/api-documentation-case/">API-документация</a></li>
+        <li><a href="/portfolio/ai-workflow-case/">AI в документации</a></li>
+        <li><a href="/portfolio/ai-in-workflow/">AI в рабочем процессе</a></li>
+        <li><a href="/portfolio/api-explained-plain-english/">API in Plain English</a></li>
+        <li><a href="/portfolio/documentation-workflow/">Documentation Workflow</a></li>
+        <li><a href="/portfolio/interactive-api/">Interactive API</a></li>
+        <li><a href="/portfolio/process/">Процессы и методология</a></li>
+        <li><a href="/portfolio/qa-checklist/">QA-чеклист</a></li>
+        <li><a href="/portfolio/user-guides/">Пользовательские руководства</a></li>
+        <li><a href="/portfolio/ux-portfolio-checklist/">Чеклист UX-текста</a></li>
+      </ul>
+    </li>
+  </ul>
+</section>
+
 <section id="cases">
   <h2>Кейсы</h2>
 <div class="track-grid">
