@@ -3,6 +3,7 @@ locale = "ru-ru"
 defaultContentLanguage = "ru"
 title = "Portfolio — Technical Writing"
 theme = "PaperMod"
+disableKinds = ["taxonomy", "term"]
 
 [pagination]
 pagerSize = 10
