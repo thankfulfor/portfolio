@@ -4,7 +4,6 @@ ShowToc: false
 ---
 
 <section class="portfolio-hero">
-  <p class="portfolio-eyebrow">Технический писатель продукта</p>
   <h1>Превращаю разрозненные знания о продукте в поддерживаемую систему документации.</h1>
   <p class="portfolio-lead">Работаю с задачами, чатами, Figma, Confluence, кодом и обсуждениями команды, а затем собираю документацию, которую легко найти, проверить и обновлять.</p>
   <div class="hero-actions">
