@@ -24,6 +24,10 @@ ShowToc: false
     <h3>API простыми словами</h3>
     <p>Как объяснить техническое понятие пользователю без инженерного бэкграунда</p>
   </a>
+  <a class="track-card" href="/portfolio/api-documentation-case/">
+    <h3>API-документация</h3>
+    <p>Структура API Reference, примеры запросов и ссылка на интерактивную спецификацию</p>
+  </a>
   <a class="track-card" href="/portfolio/ai-workflow-case/">
     <h3>AI в документации</h3>
     <p>Где AI ускоряет работу, а где ответственность остается за автором</p>
